@@ -1,0 +1,156 @@
+body { 
+		background-color: #c68c53;		 
+	}
+
+.update{
+		position: absolute;
+		top: 11px;
+		left: 970px;
+		font-size: 9pt;
+	}
+
+p{
+		text-align: right;
+		font-size: 9pt;
+	}
+
+.today{
+		font-family: "Arial", Times, serif;
+		font-size: 12px;
+		/*text-align: center;*/
+		position: absolute;
+		top: 681px;
+		left: 605px;
+	}
+
+.sheet{
+		background-color: #ffcc66;		
+		position: absolute;
+		top: 0px;
+		left: 109px;
+		height: 695px;
+		width: 1140px;
+		border-left-style: solid;
+		border-right-style: solid;
+		
+	}
+	
+.logo{
+		position: absolute;
+		top: 0px;
+		left: 239px;		
+	}
+	
+	
+h1{
+		text-align: center;
+		font-size: 30px;	
+		color: #cc6600;
+		text-shadow: 2px 2px black;	
+		position: absolute;
+		left: 390px;
+		top: 110px;
+	}
+
+
+.intro{		
+		/*color: #80dfff;*/
+		color: #0000ff;
+		text-shadow: 1px 1px black;
+		position: absolute;
+		left: 310px;
+		top: 230px;
+		max-width: 380px;
+		font-size: 14pt;
+	
+	}
+
+
+.list{
+		position: absolute;	
+		top: 140px;
+		left: 10px;
+		height: 30px;
+		width: 248px;		
+		background-color: #c68c53;
+	}
+
+.linksHeader{
+		position: relative;
+		width: 50px;
+		font-size: 16pt;
+		color: white;
+		text-shadow: 1px 1px black;	
+		
+	}
+	
+ul{
+		list-style-type: none;	
+		border: 1px solid black;
+		margin: 40;
+		padding: 0;
+		width: 18%;
+		background-color: #ffcc66;
+	    position: fixed;
+	    height: 90%;
+	    overflow: auto;		
+	}
+	
+li a{
+		display: block;
+		text-decoration: none;
+		color: #00cc00;		
+		text-shadow: 1px 1px black;
+		padding: 15px 10px;
+	}
+
+a:hover{
+		color: red;
+		background-color: yellow;
+	
+}
+
+.formClass{
+		position:absolute;
+		left: 500px;
+		top: 200px;
+		color: #0000ff;
+		text-shadow: 1px 1px black;	
+		font-size: 13pt;
+	}
+
+.quill{
+		position: absolute;
+		left: 600px;
+		top: 545px;
+	}
+
+.contactInfo{
+		position: absolute;
+		left: 850px;
+		top: 600px;
+		font: Arial;
+		border: 1px solid black;		
+	}
+
+.contactWord{
+		color: #0000ff;
+		position: absolute;
+		left: 850px;
+		top: 580px;
+		font-size: 13pt;
+	}
+
+footer{
+		font-family: "Arial", Times, serif;
+		font-size: 12px;
+		text-align: center;		
+	}
+	
+.foot{
+		position: absolute;		
+		left: 0;
+		bottom: 0;
+		width: 90%;		
+		text-align: center;
+	}

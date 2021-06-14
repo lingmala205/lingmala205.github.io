@@ -1,0 +1,156 @@
+<!-- 
+Copyright Disclaimer Under Section 107 of the Copyright Act 1976, 
+allowance is made for "fair use" for purposes such as criticism, 
+comment, news reporting, teaching, scholarship, and research. 
+Fair use is a use permitted by copyright statute that might otherwise 
+be infringing. Non-profit, educational or personal use tips the balance 
+in favor of fair use.
+
+With the exception of the logo, I do not own any images, 
+	 music, or videos featured on this website.
+	
+	I created the logo by using the copyright-free website:
+	https://www.1001fonts.com/
+	
+	
+	The image of the fantasy dreamscape is from "Carlisle, A. J. 
+	“Posts Tagged 'Transformative Epic Fantasy'.” 	Ajcarlisle, 
+	ajcarlisle.wordpress.com/tag/transformative-epic-fantasy/.
+	Originally from Whendell Deviant Art."
+	
+	The soundtrack on this page is composed by Howard Shore.
+	
+	-->
+<!-- The page must use the HTML5 DOCTYPE: -->
+<!DOCTYPE html>
+		<html lang = "en">
+			<head>
+				<meta charset="utf-8">
+				
+				<!-- A title for the Web home page: -->
+				<title>All About High Fantasy</title>
+
+				<!--Refer to the CSS page for styling.-->
+				<link rel="stylesheet" href="index.css">
+			
+			
+				<!-- Add meta tags for description, author, and robots: -->
+				<meta name = "description" content = "A fan site for young adults for everything about high fantasy. ">
+				<meta name = "author" content = "Nachiket Kulkarni is the author of this site.">
+				<meta name = "robots" content = "Indexing for the internet.">
+			</head>
+			
+			
+			<body>
+				<!-- Create the main part of the page. -->
+				<div class = "sheet">
+					<div class="logo">
+						<img src="Logo.jpg" alt="The logo of the website is displayed.">					
+					</div>
+					
+					<!-- Show when the page was last modified 
+					(registering every hit it gets from users). -->
+					<div class="update">
+						Last Updated:	
+					</div>
+					<p id="update"></p>
+					
+					<!-- Main Heading -->
+					<h1>Welcome!</h1>
+					
+					<!-- Introduce the user to the fan site and state its intentions. -->
+						<div class = "intro">
+							Welcome to the home of high fantasy! If you enjoy magic, adventure, exotic
+							landscapes, mythical creatures, outstanding films and television shows, beautiful music, 
+							imaginative languages and the genius creators behind it all, then this is the website 
+							for you. Feel free, fellow traveler, to peruse this site and all its facets. Your 
+							imagination is your greatest tool, and use it to the maximum! 
+						</div>
+					
+						<div class="floatingMountains">
+							<img src="MainPageImage.jpg" alt="A typical high fantasy setting/dreamscape with floating mountains.">
+						</div>
+						
+						
+						<!-- Make sure that you have navigation 
+						linking all your pages to each other and 
+						the homepage. -->						
+						<div class="list">
+							<div class = "linksHeader">							
+							Links
+							</div>
+							<ul>
+								<li><a href="index.htm" data-toggle="tooltip" title="This page introduces the site.">Main Page</a></li>
+								<li><a href="OriginsOfHighFantasy.htm" data-toggle="tooltip" title="Read about the genre's beginnings.">Origins Of High Fantasy</a></li>
+								<li><a href="MainThemesAndConcepts.htm" data-toggle="tooltip" title="Learn about the creatures, powers, and worlds in high fantasy.">Major Themes & Concepts</a></li>
+								<li><a href="NovelsAndBookSeries.htm" data-toggle="tooltip" title="Explore a collection of masterpieces.">Novels and Book Series</a></li>
+								<li><a href="Films.htm" data-toggle="tooltip" title="These movies are among the most acclaimed in fantasy.">Films</a></li>
+								<li><a href="TVSeries.htm" data-toggle="tooltip" title="You would want to watch these great shows.">TV Series</a></li>
+								<li><a href="VideoGames.htm" data-toggle="tooltip" title="Entertainment just got better.">Video Games</a></li>
+								<li><a href="LearnHighFantasyLanguages.htm" data-toggle="tooltip" title="This page will show you an integral part of high fantasy worlds.">Learn High Fantasy Languages</a></li>
+								<li><a href="NotableAuthors.htm" data-toggle="tooltip" title="Read about the legends behind the stories.">Notable Authors</a></li>
+								<li><a href="FantasyClubMembershipAndContact.htm" data-toggle="tooltip" title="Join our fan club and keep in touch.">Fantasy Club Membership/Contact</a></li>
+							</ul>
+						</div>
+					<div class = "audio">
+							<audio autoplay controls loop>
+							<source src="RohanAndGondorThemes.mp3" type="audio/mpeg">
+							</audio>
+					</div>
+					<div class="today">
+					<script>
+						// Get today's date.
+
+						today = new Date()
+
+						if(0 == today.getMonth())
+							document.write("January ")
+						else if(1 == today.getMonth())
+							document.write("Febuary ")
+						else if(2 == today.getMonth())
+							document.write("March ")
+						else if(3 == today.getMonth())
+							document.write("April ")
+						else if(4 == today.getMonth())
+							document.write("May ")
+						else if(5 == today.getMonth())
+							document.write("June ")
+						else if(6 == today.getMonth())
+							document.write("July ")
+						else if(7 == today.getMonth())
+							document.write("August ")
+						else if(8 == today.getMonth())
+							document.write("September ")
+						else if(9 == today.getMonth())
+							document.write("October ")
+						else if(10 == today.getMonth())
+							document.write("November ")
+						else if(11 == today.getMonth())
+							document.write("December ")
+
+						today = new Date()
+						document.write(today.getDate())
+						document.write(", ")
+						document.write(today.getFullYear())
+
+						</script>
+						</div>
+					
+				</div>
+					
+				<!-- Add a copyright statement including 
+				the copyright symbol to the bottom of the page.
+				The copyright and other page footer information 
+				should be centered and formatted using a CSS class, 
+				the HTML footer element, or a CSS ID using a font that 
+				is smaller than that of the default font. -->
+				<div class = "foot">								
+				<footer>
+					Copyright &copy; 2019 Nachiket Kulkarni
+				
+				
+				</footer>
+				</div>	
+			  <script src ="index.js"></script>
+			</body>
+		</html>

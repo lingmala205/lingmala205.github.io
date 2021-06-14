@@ -1,0 +1,326 @@
+body { 
+		background-color: #c68c53;		 
+	}
+
+.update{
+		position: absolute;
+		top: 11px;
+		left: 970px;
+		font-size: 9pt;
+	}
+
+p{
+		text-align: right;
+		font-size: 9pt;
+	}
+
+.today{
+		font-family: "Arial", Times, serif;
+		font-size: 12px;
+		/*text-align: center;*/
+		position: absolute;
+		top: 2786px;
+		left: 605px;
+	}
+
+.sheet{
+		background-color: #ffcc66;		
+		position: absolute;
+		top: 0px;
+		left: 109px;
+		height: 2800px;
+		width: 1140px;
+		border-left-style: solid;
+		border-right-style: solid;
+		
+	}
+	
+.logo{
+		position: absolute;
+		top: 0px;
+		left: 239px;		
+	}
+	
+.kenning{
+		position: absolute;
+		left: 460px;
+		top: 110px;
+	}	
+	
+	
+	
+	
+/*Main heading.*/	
+h1{
+		text-align: center;
+		font-size: 30px;	
+		color: #cc6600;
+		text-shadow: 2px 2px black;	
+		position: absolute;
+		left: 450px;
+		top: 150px;
+	}
+
+/*Quenya.*/
+h2{		
+		text-align: center;
+		font-size: 20px;	
+		color: #cc6600;
+		text-shadow: 1px 1px black;	
+		position: absolute;
+		left: 320px;
+		top: 205px;
+		
+	}	
+
+/*Sindarin.*/	
+h3{
+		text-align: center;
+		font-size: 20px;	
+		color: #cc6600;
+		text-shadow: 1px 1px black;	
+		position: absolute;
+		left: 320px;
+		top: 575px;
+	}
+	
+
+/*Dovahzul.*/
+h4{
+		text-align: center;
+		font-size: 20px;	
+		color: #cc6600;
+		text-shadow: 1px 1px black;	
+		position: absolute;
+		left: 320px;
+		top: 815px;	
+	}
+
+/*High Valyrian.*/
+h5{
+		text-align: center;
+		font-size: 20px;	
+		color: #cc6600;
+		text-shadow: 1px 1px black;	
+		position: absolute;
+		left: 320px;
+		top: 1030px;	
+	}
+
+/*Rohirric (Old English)*/
+h6{
+		
+
+		text-align: center;
+		font-size: 20px;	
+		color: #cc6600;
+		text-shadow: 1px 1px black;	
+		position: absolute;
+		left: 320px;
+		top: 1345px;	
+	}
+	
+
+
+	
+/*Quenya*/
+.quenyaText{		
+		
+		color: #0000ff;
+		text-shadow: 1px 1px black;
+		position: absolute;
+		left: 320px;
+		top: 248px;
+		max-width: 590px;
+		font-size: 12.5pt;
+		text-align: justify;
+		text-justify: inter-word; 
+	}
+
+
+
+/*Sindarin*/
+.sindarinText{
+		color: #0000ff;
+		text-shadow: 1px 1px black;
+		position: absolute;
+		left: 320px;
+		top: 620px;
+		max-width: 590px;
+		font-size: 12.5pt;
+		text-align: justify;
+		text-justify: inter-word; 
+	}
+
+
+
+/*Dovahzul*/
+.dovahzulText{
+		color: #0000ff;
+		text-shadow: 1px 1px black;
+		position: absolute;
+		left: 320px;
+		top: 866px;
+		max-width: 590px;
+		font-size: 12.5pt;
+		text-align: justify;
+		text-justify: inter-word; 
+	}
+
+/*High Valyrian*/
+.valyrianText{
+		color: #0000ff;
+		text-shadow: 1px 1px black;
+		position: absolute;
+		left: 320px;
+		top: 1090px;
+		max-width: 590px;
+		font-size: 12.5pt;
+		text-align: justify;
+		text-justify: inter-word; 
+	}
+	
+/*Rohirric (Old English)*/
+.rohirricText{
+		color: #0000ff;
+		text-shadow: 1px 1px black;
+		position: absolute;
+		left: 320px;
+		top: 1420px;
+		max-width: 590px;
+		font-size: 12.5pt;
+		text-align: justify;
+		text-justify: inter-word; 
+	}
+
+table{
+		border: 1px solid black;
+		width:100%;		
+	}
+
+th, td{
+		border: 1px solid black;
+		padding: 3px;
+		text-align: center;
+	}
+
+.quenyaList{
+		
+		color: #0000ff;
+		text-shadow: 1px 1px black;
+		position: absolute;
+		left: 320px;
+		top: 2350px;
+		font-size: 12.5pt;
+		
+	}
+
+.sindarinList{
+		
+		color: #0000ff;
+		text-shadow: 1px 1px black;
+		position: absolute;
+		left: 480px;
+		top: 2370px;
+		font-size: 12.5pt;
+	}
+
+.dovahzulList{
+		
+		color: #0000ff;
+		text-shadow: 1px 1px black;
+		position: absolute;
+		left: 700px;
+		top: 2370px;
+		font-size: 12.5pt;
+	}
+
+.valyrianList{
+		
+		color: #0000ff;
+		text-shadow: 1px 1px black;
+		position: absolute;
+		left: 320px;
+		top: 2540px;
+		font-size: 12.5pt;
+	}
+
+.oldEnglishList{
+		
+		color: #0000ff;
+		text-shadow: 1px 1px black;
+		position: absolute;
+		left: 480px;
+		top: 2540px;
+		font-size: 12.5pt;
+	}
+
+
+.list{
+		position: absolute;	
+		top: 140px;
+		left: 10px;
+		height: 30px;
+		width: 248px;		
+		background-color: #c68c53;
+	}
+
+.linksHeader{
+		position: relative;
+		width: 50px;
+		font-size: 16pt;
+		color: white;
+		text-shadow: 1px 1px black;	
+		
+	}
+	
+ul{
+		list-style-type: none;	
+		border: 1px solid black;
+		margin: 40;
+		padding: 0;
+		width: 18%;
+		background-color: #ffcc66;
+	    position: fixed;
+	    height: 90%;
+	    overflow: auto;		
+	}
+	
+li a{
+		display: block;
+		text-decoration: none;
+		color: #00cc00;		
+		text-shadow: 1px 1px black;
+		padding: 15px 10px;
+	}
+
+a:hover{
+		color: red;
+		background-color: yellow;
+}
+
+footer{
+		font-family: "Arial", Times, serif;
+		font-size: 12px;
+		text-align: center;		
+	}
+
+.audio{
+		position: absolute;
+		top: 70px;
+		left: 10px;		
+	}
+
+audio{
+		width: 250px;		
+	}
+
+	
+.foot{
+		position: absolute;		
+		left: 346px;
+		top: 2786px;
+		bottom: 0;
+		width: 40%;		
+		text-align: center;
+	}
